@@ -18,5 +18,9 @@ for (var i=1; i<=30; i++) {
   else  {
     console.log(i)
   }
-
 }
+
+function print(output) {
+  document.write('<div>' + output + '</div>')
+}
+print("hey!")
