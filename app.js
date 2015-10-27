@@ -25,5 +25,5 @@ for (var i=1; i<=30; i++) {
 }
 
 function print(output) {
-  document.write('<div>' + output + '</div>')
+  document.write('<div><p>' + output + '</p></div>')
 }
