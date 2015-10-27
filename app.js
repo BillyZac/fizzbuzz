@@ -8,19 +8,22 @@
 for (var i=1; i<=30; i++) {
   if (i%15 === 0) {
     console.log("FizzBuzz")
+    print('FizzBuzz')
   }
   if (i%3 === 0) {
     console.log("Fizz")
+    print('Fizz')
   }
   else if (i%5 === 0) {
     console.log("Buzz")
+    print('Buzz')
   }
   else  {
     console.log(i)
+    print(i)
   }
 }
 
 function print(output) {
   document.write('<div>' + output + '</div>')
 }
-print("hey!")
